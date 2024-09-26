@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularz Rejestracji</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <script type="text/javascript">
+      var _smid = "898117bc82671ba1";
+      var _smapp = 1;
+      var _smbanners = true;
+      (function (w, r, a, sm, s) {
+        w["SalesmanagoObject"] = r;
+        w[r] =
+          w[r] ||
+          function () {
+            (w[r].q = w[r].q || []).push(arguments);
+          };
+        sm = document.createElement("script");
+        sm.type = "text/javascript";
+        sm.async = true;
+        sm.src = a;
+        s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(sm, s);
+      })(
+        window,
+        "sm",
+        ("https:" == document.location.protocol ? "https://" : "http://") +
+          "www.salesmanago.com/static/sm.js"
+      );
+    </script>
+    <div class="container">
+        <h1>Formularz Rejestracji</h1>
+        <form id="registrationForm">
+            <label for="first_name">Imię:</label>
+            <input type="text" id="first_name" name="first_name" required>
+
+            <label for="last_name">Nazwisko:</label>
+            <input type="text" id="last_name" name="last_name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Numer telefonu:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <button type="button" id="submitBtn">Zarejestruj się</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
