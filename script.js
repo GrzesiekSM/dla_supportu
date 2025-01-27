@@ -33,7 +33,7 @@ document.getElementById('submitBtn').addEventListener('click', function(event) {
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-  const form = document.getElementById('ie9m');
+  const form = document.getElementById('ia2r');
   if (form) {
     form.addEventListener('submit', function(event) {
       event.preventDefault(); // Blokuje przeładowanie strony po wysłaniu formularza
